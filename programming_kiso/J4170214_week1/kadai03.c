@@ -7,7 +7,7 @@ int main() {
         for (y=x; y<1000; y++) {
             for (z=y; z<1000; z++) {
                 if (x * x + y * y == z * z) {
-                    printf("(%d, %d, %d\n)", x, y, z);
+                    printf("(%d, %d, %d)\n", x, y, z);
                 }
             }
         }
