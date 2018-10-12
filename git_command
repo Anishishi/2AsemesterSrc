@@ -13,5 +13,10 @@ git push -u origin master
 ## …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-##delete files from repository
+##delete/fix files
 git rm "files"
+git commit ammend
+
+##renew my local repository
+git fetch
+git rebase origin master
